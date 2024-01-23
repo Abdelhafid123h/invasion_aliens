@@ -4,7 +4,7 @@ class Alien(Sprite):
  """A class to represent a single alien in the fleet."""
  def __init__(self,ai_settings,screen):
    """Initialize the alien and set its starting position."""
-   super(Alien,self).__init__()
+   super(Alien,self).__init__() #call the parent class sprite
    self.screen=screen
    self.ai_settings=ai_settings
    # Load the alien image and set its rect attribute.
